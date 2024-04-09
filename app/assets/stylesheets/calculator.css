@@ -1,93 +1,72 @@
-.bg-grey {
-  background-color: grey;
+.bg-lightgray {
+  background-color: lightgray;
 }
-
 .bg-black {
- background-color: black;
-}
-
-.bg-dark-grey {
-  background-color: darkgray;
-}
-
-.h-400 {
-  height: 400px;
-}
-
-.h-50 {
-  height: 50px;
-}
-
-.h-240 {
-  height: 240px;
-}
-
-.w-250 {
-  width: 250px;
-}
-
-.w-200 {
-  width: 200px;
-}
-
-.w-150 {
-  width: 150px;
-}
-
-.p-relative {
-  position: relative;
-}
-
-.p-absolute {
-  position: absolute;
-}
-
-.b-0 {
-  bottom: 0;
-}
-
-.r-0 {
-  right: 0;
-}
-
-.t-1 {
-  top: 100px;
-}
-
-.font-30 {
-  font-size: 30px;
+  background-color: black;
 }
 
 .text-white {
   color: white;
 }
 
+.h-200 {
+  height: 200px;
+}
+.h-20 {
+  height: 20px;
+}
+
+.w-150 {
+  width: 150px;
+}
+.w-120 {
+  width: 120px;
+}
+
 .mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
-.mx-5 {
-  margin-left: 5px;
-  margin-right: 5px;
+.mt-2 {
+  margin-top: 2px;
 }
 
-.mt-10 {
-  margin-top: 10px;
+.p-10 {
+  padding: 10px;
 }
 
-.mt-30 {
-  margin-top: 30px;
+.d-inline-block {
+  display: inline-block;
 }
 
-.mb-30 {
-  margin-bottom: 30px;
+.maplestory-button {
+  background: linear-gradient(0deg, rgba(136,187,0,1) 0%, rgba(136,187,0,1) 25%, rgba(204,234,0,1) 55%, rgba(204,234,0,1) 100%);
+  text-shadow: rgba(88,163,0,1) 1px 1px 1px,
+               rgba(88,163,0,1) 1px 0px 1px,
+               rgba(88,163,0,1) 1px -1px 1px,
+               rgba(88,163,0,1) -1px 0px 1px,
+               rgba(88,163,0,1) -1px 1px 1px,
+               rgba(88,163,0,1) -1px -1px 1px,
+               rgba(88,163,0,1) 0px 1px 1px,
+               rgba(88,163,0,1) 0px 0px 1px,
+               rgba(88,163,0,1) 0px -1px 1px;
+  color: white;
+  border-radius: 4px;
+  border: 0px;
+  padding-top: 2px;
+
 }
 
-.lh-80 {
-  line-height: 80px;
+.maplestory-button-boarder:has(> .maplestory-button:active:hover) {
+  background: linear-gradient(180deg, rgba(136,201,0,1) 0%, rgba(136,201,0,1) 20%, #ffffff 100%);
 }
 
-.w-fit-content {
-  width: fit-content;
+.maplestory-button-boarder {
+  background: linear-gradient(0deg, rgba(136,201,0,1) 0%, rgba(136,201,0,1) 20%, #ffffff 100%);
+  padding: 2px;
+  border-radius: 4px;
+  border: 1px solid rgba(77,164,0,1);
 }
+
+/* light green: #ccea1e rgba(136,187,0,255) */
+/* dark green: #88bb00*/

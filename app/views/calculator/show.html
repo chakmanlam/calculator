@@ -1,31 +1,64 @@
-<div data-controller="calculator" id="calculator-body">
-  <div id="calculator-screen">Hello</div>
-  <div>
-    <button>7</button>
-    <button>8</button>
-    <button>9</button>
-    <button>*</button>
-  </div>
+<div class="bg-lightgray h-200 w-150 p-10"data-controller="calculator" id="calculator-body">
+  <div class="bg-black text-white h-20 w-120 mx-auto" id="calculator-screen">Hello</div>
+  <div class="w-120 p-10 mx-auto">
+    <div class="mt-2">
+      <div class="maplestory-button-boarder d-inline-block">
+        <button class="maplestory-button" data-action='click->calculator#append'>7</button>
+      </div>
+      <div class="maplestory-button-boarder d-inline-block">
+        <button class="maplestory-button" data-action='click->calculator#append'>8</button>
+      </div>
+      <div class="maplestory-button-boarder d-inline-block">
+        <button class="maplestory-button" data-action='click->calculator#append'>9</button>
+      </div>
+      <div class="maplestory-button-boarder d-inline-block">
+        <button class="maplestory-button" data-action='click->calculator#append'>*</button>
+      </div>
+    </div>
 
-  <div>
-    <button>4</button>
-    <button>5</button>
-    <button>6</button>
-    <button>/</button>
-  </div>
+    <div class="mt-2">
+      <div class="maplestory-button-boarder d-inline-block">
+        <button class="maplestory-button" data-action='click->calculator#append'>4</button>
+      </div>
+      <div class="maplestory-button-boarder d-inline-block">
+        <button class="maplestory-button" data-action='click->calculator#append'>5</button>
+      </div>
+      <div class="maplestory-button-boarder d-inline-block">
+        <button class="maplestory-button" data-action='click->calculator#append'>6</button>
+      </div>
+      <div class="maplestory-button-boarder d-inline-block">
+        <button class="maplestory-button" data-action='click->calculator#append'>/</button>
+      </div>
+    </div>
 
-  <div>
-    <button>1</button>
-    <button>2</button>
-    <button>3</button>
-    <button>+</button>
+    <div class="mt-2">
+      <div class="maplestory-button-boarder d-inline-block">
+        <button class="maplestory-button" data-action='click->calculator#append'>1</button>
+      </div>
+      <div class="maplestory-button-boarder d-inline-block">
+        <button class="maplestory-button" data-action='click->calculator#append'>2</button>
+      </div>
+      <div class="maplestory-button-boarder d-inline-block">
+        <button class="maplestory-button" data-action='click->calculator#append'>3</button>
+      </div>
+      <div class="maplestory-button-boarder d-inline-block">
+        <button class="maplestory-button" data-action='click->calculator#append'>+</button>
+      </div>
 
+    </div>
+    <div class="mt-2">
+      <div class="maplestory-button-boarder d-inline-block">
+        <button class="maplestory-button" data-action='click->calculator#append'>0</button>
+      </div>
+      <div class="maplestory-button-boarder d-inline-block">
+        <button class="maplestory-button" data-action='click->calculator#append'>.</button>
+      </div>
+      <div class="maplestory-button-boarder d-inline-block">
+        <button class="maplestory-button" data-action='click->calculator#equals'>=</button>
+      </div>
+      <div class="maplestory-button-boarder d-inline-block">
+        <button class="maplestory-button" data-action='click->calculator#append'>-</button>
+      </div>
+    </div>
   </div>
-  <div>
-    <button>0</button>
-    <button>.</button>
-    <button>=</button>
-    <button>-</button>
-  </div>
-
 </div>
