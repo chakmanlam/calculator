@@ -1,0 +1,93 @@
+.bg-grey {
+  background-color: grey;
+}
+
+.bg-black {
+ background-color: black;
+}
+
+.bg-dark-grey {
+  background-color: darkgray;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+.h-50 {
+  height: 50px;
+}
+
+.h-240 {
+  height: 240px;
+}
+
+.w-250 {
+  width: 250px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-150 {
+  width: 150px;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.b-0 {
+  bottom: 0;
+}
+
+.r-0 {
+  right: 0;
+}
+
+.t-1 {
+  top: 100px;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
+.text-white {
+  color: white;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mx-5 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.lh-80 {
+  line-height: 80px;
+}
+
+.w-fit-content {
+  width: fit-content;
+}

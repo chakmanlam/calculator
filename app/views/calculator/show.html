@@ -1,0 +1,27 @@
+<div data-controller="calculator" class="bg-grey h-400 w-250 p-relative" id="calculator-body">
+  <div class="bg-black text-white h-50 w-200 mx-auto mt-10" id="calculator-screen"></div>
+
+  <div class="bg-dark-grey h-240 w-150 mx-auto mt-30 mb-30" id="number-pad">
+    <div class="mx-auto lh-80 w-fit-content">
+      <button data-action="click->calculator#one" class="font-30 mx-5" id="button-1"> 1 </button>
+      <button data-action="click->calculator#two" class="font-30 mx-5" id="button-2"> 2 </button>
+      <button data-action="click->calculator#three" class="font-30 mx-5" id="button-3"> 3 </button>
+    </div>
+
+    <div class="mx-auto lh-80 w-fit-content">
+      <button data-action="click->calculator#four" class="font-30 mx-5" id="button-4"> 4 </button>
+      <button data-action="click->calculator#five" class="font-30 mx-5" id="button-5"> 5 </button>
+      <button data-action="click->calculator#six" class="font-30 mx-5" id="button-6"> 6 </button>
+    </div>
+
+    <div class="mx-auto lh-80 w-fit-content">
+      <button data-action="click->calculator#seven" class="font-30 mx-5" id="button-7"> 7 </button>
+      <button data-action="click->calculator#eight" class="font-30 mx-5" id="button-8"> 8 </button>
+      <button data-action="click->calculator#nine" class="font-30 mx-5" id="button-9"> 9 </button>
+    </div>
+
+
+  </div>
+
+  <button data-action="click->calculator#plus" class="p-absolute b-0 r-0" id="addition-button"> + </button>
+</div>
